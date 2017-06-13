@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/authored/eslint-config/issues"
   },
-  "homepage": "https://github.com/authored/eslint-config#readme"
+  "homepage": "https://github.com/authored/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 3.19.0"
+  }
 }
