@@ -10,7 +10,13 @@ module.exports = {
     "jsx-quotes": [2, "prefer-single"]
   },
   "plugins": ["react"],
+  "extends": "plugin:react/recommended",
   "env": {
     "browser": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
   }
 };
