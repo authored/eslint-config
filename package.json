@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-authored",
+  "version": "1.0.0",
+  "description": "eslint for authored projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/authored/eslint-config.git"
+  },
+  "author": "Authored",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/authored/eslint-config/issues"
+  },
+  "homepage": "https://github.com/authored/eslint-config#readme"
+}
