@@ -12,11 +12,5 @@ module.exports = {
   "plugins": ["react"],
   "env": {
     "browser": true
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "modules": true,
-      "jsx": true
-    }
   }
 };
