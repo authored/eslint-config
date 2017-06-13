@@ -54,7 +54,7 @@ module.exports = {
     "semi-spacing": [2, {"before": false, "after": true}],
     "space-in-parens": [2, "never"],
     "template-curly-spacing": [2, "never"],
-    "vars-on-top": 2
+    "vars-on-top": 2,
   },
   "env": {
     "es6": true,
@@ -66,8 +66,7 @@ module.exports = {
     "sourceType": "module",
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
-      "modules": true,
-      "jsx": true
+      "modules": true
     }
   }
 };
