@@ -1,4 +1,5 @@
 module.exports = {
+  "parser": "babel-eslint",
   "rules": {
     "arrow-parens": [2, "as-needed"],
     "arrow-spacing": 2,
