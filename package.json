@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-authored",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint for authored projects",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/authored/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">= 3.19.0"
+    "eslint": ">= 3.19.0",
+    "babel-eslint": "^7.2.3"
   }
 }
