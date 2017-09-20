@@ -45,7 +45,6 @@ module.exports = {
     "one-var": [2, "never"],
     "prefer-arrow-callback": 2,
     "prefer-const": 2,
-    "prefer-destructuring": 2,
     "prefer-template": 2,
     "quotes": [2, "single"],
     "quote-props": [2, "as-needed"],
@@ -54,8 +53,7 @@ module.exports = {
     "space-before-blocks": [2, "always"],
     "semi-spacing": [2, {"before": false, "after": true}],
     "space-in-parens": [2, "never"],
-    "template-curly-spacing": [2, "never"],
-    "vars-on-top": 2,
+    "template-curly-spacing": [2, "never"]
   },
   "env": {
     "es6": true,
