@@ -53,13 +53,19 @@ module.exports = {
     "space-before-blocks": [2, "always"],
     "semi-spacing": [2, {"before": false, "after": true}],
     "space-in-parens": [2, "never"],
-    "template-curly-spacing": [2, "never"]
+    "template-curly-spacing": [2, "never"],
+    "import/order": 2,
+    "prefer-object-spread/prefer-object-spread": 1
   },
   "env": {
     "es6": true,
     "node": true,
     "mocha": true
   },
+  "plugins": [
+    "import",
+    "prefer-object-spread",
+  ],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
