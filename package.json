@@ -19,5 +19,9 @@
   "peerDependencies": {
     "eslint": ">= 3.19.0",
     "babel-eslint": ">= 7.2.3"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prefer-object-spread": "^1.2.1"
   }
 }
